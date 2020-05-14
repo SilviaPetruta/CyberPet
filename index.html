@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Pet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="top">
+            <h1>Cyber Pet</h1>
+        </header>
+        <main class="main">
+            <div class="col1">
+                <img id="petImg" src="Pet/pikachu-sleeping.png" alt="">
+                <input id="petStatusInput" type="text" value="zzZZzzZZ..." disabled>
+            </div>
+            <div class="col2">
+                <div>
+                    <label for="foodInput">Hunger:</label>
+                    <input id="foodInput" type="text" value="0" disabled>
+                </div>
+                <div>
+                    <label for="waterInput">Thirst:</label>
+                    <input id="waterInput" type="text" value="0" disabled>
+                </div>
+                <div>
+                    <label for="loveInput">Happiness:</label>
+                    <input id="loveInput" type="text" value="0" disabled>
+                </div>
+                <div>
+                    <label for="energyInput">Energy:</label>
+                    <input id="energyInput" type="text" value="0" disabled>
+                </div>
+            </div>
+            <div class="col3" id="actionBtnsDiv">
+                <button id="wakeUpBtn">Wake me up</button>
+                <button id="goSleepBtn" disabled>Put me to sleep</button>
+                <button id="feedBtn" disabled>Feed me</button>
+                <button id="waterBtn" disabled>Give me water</button>
+                <button id="loveBtn" disabled>Show me some love</button>
+                <button id="walkBtn" disabled>Take me for a walk</button>
+                <button id="paintBtn" disabled>Surprise me</button>
+            </div>
+            <div class="col4">
+                <img id="trainerImg" src="Pet/trainer-ash.png" alt="">
+            </div>
+        </main> 
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

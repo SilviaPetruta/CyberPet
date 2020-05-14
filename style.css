@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.container {
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lora', serif;
+}
+
+.top {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: black solid 1px; */
+}
+
+.main {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col1 {
+    width: 30%;
+}
+
+#petImg {
+    width: 300px;
+    height: 300px;
+}
+
+#petStatusInput {
+    text-align: center;
+    background: lightgreen;
+    border-radius: 10px;
+    margin: 15px;
+    width: 75%;
+    min-width: 280px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.col2 {
+    width: 20%;
+}
+
+.col2 div {
+    display: flex;
+}
+
+.col2 label {
+    height: 30px;
+    display: inline;
+}
+
+.col2 input {
+    height: 30px;
+    text-align: center;
+    display: inline;
+}
+
+.col3 {
+    width: 20%;
+}
+
+.col3 button {
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #000;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.col3 button:disabled {
+    background: grey;
+    color: white;
+    pointer-events: none;
+}
+
+#feedBtn:hover {
+    background: radial-gradient(circle, rgba(0,145,21,1) 0%, rgba(0,198,28,1) 70%, rgba(0,255,37,1) 100%);
+    color: white;
+}
+
+#waterBtn:hover {
+    background: radial-gradient(circle, rgba(0,87,198,1) 0%, rgba(0,101,231,1) 70%, rgba(85,159,255,1) 100%);
+    color: white;
+}
+
+#loveBtn:hover {
+    background: radial-gradient(circle, rgba(166,0,0,1) 0%, rgba(219,0,0,1) 70%, rgba(255,82,82,1) 100%);
+    color: white;
+}
+
+#walkBtn:hover {
+    background: radial-gradient(circle, rgba(105,0,185,1) 0%, rgba(145,0,255,1) 70%, rgba(176,73,255,1) 100%);
+    color: white;
+}
+
+#paintBtn:hover {
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: white;
+}
+
+#goSleepBtn:hover {
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(71,71,71,1) 70%, rgba(144,144,144,1) 100%);
+    color: white;
+}
+
+#wakeUpBtn:hover {
+    background: radial-gradient(circle, rgba(131,131,105,1) 0%, rgba(241,255,7,1) 70%, rgba(249,241,0,1) 100%);
+    color: white;
+}
+
+.col4 {
+    width: 30%;
+}
